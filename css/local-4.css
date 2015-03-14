@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:Helvetica;
+	src:url(../../Helvetica___.ttf);
+}
+#remove_patient
+{
+	margin:0 auto;
+	width:800px;
+	font-size:18px;
+	padding-top:35px;
+}
+#remove_patient p
+{
+	font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#00C;
+}
+#remove_patient table td
+{
+	border-collapse:collapse;
+	width:90px;
+	height:45px;
+	border:3px solid #7D0000;
+	text-align:center;
+	font-weight:bold; 
+	font-size:16px;
+}
+#remove_patient table
+{
+	border-collapse:collapse;
+}
+.my_rem_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:13px;
+	-moz-border-radius-topleft:13px;
+	border-top-left-radius:13px;
+	-webkit-border-top-right-radius:13px;
+	-moz-border-radius-topright:13px;
+	border-top-right-radius:13px;
+	-webkit-border-bottom-right-radius:13px;
+	-moz-border-radius-bottomright:13px;
+	border-bottom-right-radius:13px;
+	-webkit-border-bottom-left-radius:13px;
+	-moz-border-radius-bottomleft:13px;
+	border-bottom-left-radius:13px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:22px;
+	font-weight:bold;
+	font-style:normal;
+	height:52px;
+	line-height:52px;
+	width:250px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+}
+.my_rem_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}.my_rem_button:active {
+	position:relative;
+	top:1px;
+}
+#new_way
+{
+	padding-top:30px;
+	margin:0 auto;
+	width:800px;
+	text-align:center;
+}
+#con_del
+{
+	width:800px;
+	margin:0 auto;
+	font-weight:bold;
+	font-size:17px;
+	padding-top:50px;
+	text-align:center;
+
+}
+#con_del p
+{
+		font-family:Helvetica;
+	font-size:24px;
+	font-weight:bold;
+	color:#00C;
+
+}
+#m_3
+{
+	border-collapse:collapse;
+	border:4px solid #800000;
+	width:800px;
+	height:40px;
+}
+#m_3 td
+{
+		border-collapse:collapse;
+	border:3px solid #800000;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	
+}
+#m_4
+{
+	border-collapse:collapse;
+	border:4px solid #800000;
+		width:800px;
+	height:40px;
+
+}
+#m_4 td
+{
+		border-collapse:collapse;
+	border:3px solid #800000;
+	text-align:center;
+	color:#5300A6;
+	font-weight:bold;
+			font-size:20px;
+
+	
+}

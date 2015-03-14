@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:Helvetica;
+	src:url(../../Helvetica___.ttf);
+}
+#bed_allocation
+{
+	margin:0 auto;
+	width:800px;
+	padding-top:20px;
+}
+#bed_allocation p
+{
+	font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#00C;
+	
+}
+
+
+
+
+
+#g_g
+{
+	border-collapse:collapse;
+	border:4px solid  #4A0000;
+	
+}
+#g_g td
+{
+		width:215px;
+	height:42px;
+	border:3px solid #4A0000;
+	text-align:center;
+	font-size:18px;
+		font-weight:bold;
+}
+#g_1_d
+{
+		border-collapse:collapse;
+	border:4px solid  #4A0000;
+	
+}
+#g_1_d td
+{
+	width:215px;
+	height:45px;
+		border:3px solid #4A0000;
+		text-align:center;
+		font-size:18px;
+		font-weight:bold;
+		color:#400080;
+
+}
+#g_1_d tr:hover td
+{
+	background-color:#6C6CFF;
+}
+

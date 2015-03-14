@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:Helvetica;
+	src:url(../../Helvetica___.ttf);
+}
+#vacant_beds
+{
+ margin:0 auto;
+ width:800px;
+ text-align:center;
+ padding-top:28px;
+}
+#bed_available 
+{
+	border:solid 3px #990000;
+	border-collapse:collapse;
+	font-weight:bold;
+	font-size:16px;
+	white-space:nowrap;
+	color:#45008A;
+
+}
+#bed_available td
+{
+		border:solid 3px #990000;
+
+		border-collapse:collapse;
+width:90px;
+height:40px;
+	
+	
+	
+	}
+	#bed_available_1 tr:hover td
+	{
+		background-color:#6C6CFF;
+	}
+	
+	#bed_available_1 
+{
+	border:solid 3px #990000;
+	border-collapse:collapse;
+	font-weight:bolder;
+	font-size:17px;
+	white-space:nowrap;
+	color:#45008A;
+
+}
+
+	#my_t_t 
+{
+	border:solid 3px #990000;
+	border-collapse:collapse;
+	font-weight:bolder;
+	font-size:17px;
+	white-space:nowrap;
+
+}
+
+#my_t_t1 
+{
+	border:solid 3px #990000;
+	border-collapse:collapse;
+	font-weight:bolder;
+	font-size:17px;
+	white-space:nowrap;
+
+}
+
+	#my_t_t1 td
+{
+		border:solid 4px #990000;
+		text-align:center;
+
+		border-collapse:collapse;
+width:225px;
+height:42px;
+	
+	
+	
+	}
+
+
+	#my_t_t td
+{
+		border:solid 4px #990000;
+		text-align:center;
+
+		border-collapse:collapse;
+width:205px;
+height:42px;
+	
+	
+	
+	}
+#select_date_time 
+{
+	margin:0 auto;
+	width:800px;
+	
+	padding-top:45px;
+}
+#select_date_time p
+{
+	font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#00C;
+}
+
+#my_show_time_now p
+{
+	font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#00C;
+}
+#vacant_beds p
+{
+		font-family:Helvetica;
+	font-size:18px;
+	font-weight:bold;
+	color:#00C;
+	text-align:start;
+}
+
+#select_date_time form select
+{
+	width:200px;
+	height:35px;
+	border-radius:16px;
+	border:3px solid #4A0000;
+	text-align:center;
+	font-size:15px;
+	font-weight:800;
+}
+#select_date_time form select option
+{
+	    background:#C0C0C0;
+		font-weight:800;
+	
+}
+.select_patient_b1 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:36px;
+	line-height:38px;
+	width:190px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+}
+.select_patient_b1:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}.select_patient_b1:active {
+	position:relative;
+	top:1px;
+}
+#my_show_time_now
+{
+	margin:0 auto;
+	width:800px;
+	padding-top:35px;
+}
+#my_show_time_now table td
+{
+	padding:10px 8px 10px 8px;
+}
+.my_select {
+	-moz-box-shadow:inset 0px 1px 0px -1px #d197fe;
+	-webkit-box-shadow:inset 0px 1px 0px -1px #d197fe;
+	box-shadow:inset 0px 1px 0px -1px #d197fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a53df6), color-stop(1, #7c16cb) );
+	background:-moz-linear-gradient( center top, #a53df6 5%, #7c16cb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a53df6', endColorstr='#7c16cb');
+	background-color:#a53df6;
+	-webkit-border-top-left-radius:16px;
+	-moz-border-radius-topleft:16px;
+	border-top-left-radius:16px;
+	-webkit-border-top-right-radius:16px;
+	-moz-border-radius-topright:16px;
+	border-top-right-radius:16px;
+	-webkit-border-bottom-right-radius:16px;
+	-moz-border-radius-bottomright:16px;
+	border-bottom-right-radius:16px;
+	-webkit-border-bottom-left-radius:16px;
+	-moz-border-radius-bottomleft:16px;
+	border-bottom-left-radius:16px;
+	text-indent:0;
+	border:1px solid #9c33ed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	height:31px;
+	line-height:31px;
+	width:79px;
+	text-decoration:none;
+	text-align:center;
+}
+
+
+.my_select:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7c16cb), color-stop(1, #a53df6) );
+	background:-moz-linear-gradient( center top, #7c16cb 5%, #a53df6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c16cb', endColorstr='#a53df6');
+	background-color:#7c16cb;
+}.my_select:active {
+	position:relative;
+	top:1px;
+}
+
+	#bed_available_2 tr:hover td
+	{
+		background-color:#6C6CFF;
+	}
+	
+	#bed_available_2
+{
+	border:solid 3px #990000;
+	border-collapse:collapse;
+	font-weight:bolder;
+	font-size:17px;
+	white-space:nowrap;
+	color:#45008A;
+
+}
+
+#bed_available_2 td
+{
+		border:solid 4px #990000;
+		text-align:center;
+
+		border-collapse:collapse;
+width:225px;
+height:42px;
+	
+	
+	
+	}
+	
+	
+	#bed_available_1 td
+{
+		border:solid 4px #990000;
+		text-align:center;
+
+		border-collapse:collapse;
+width:205px;
+height:42px;
+	
+	
+	
+	}
+
+
+
+/* This button was generated using CSSButtonGenerator.com */

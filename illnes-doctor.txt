@@ -1,0 +1,53 @@
+﻿Pneumonia
+Pulmonology
+Strep Throat
+Pulmonology 
+Measles
+Pulmonology 
+Appendicitis
+Gastroenterology
+Anthrax
+Otolaryngology
+Amoebiasis
+Hepatology
+Anemia
+Hematology
+Beriberi
+Hepatology 
+Bird flu
+Pulmonology 
+Cancer
+Onclology
+Chickenpox 
+Dermatology
+Chlamydia
+Urology
+Cholera
+Gastroenterology 
+Common cold
+Pediatrics
+Coronary heart disease
+Cardiology
+Cowpox
+Dermatology
+Dengue
+Hematology
+Diabetes mellitus
+Gastroenterology
+Diarrhoea
+Gastroenterology
+Pulmonology 
+Encephalitis
+Neurology
+Ebola
+Pediatrics
+Emphysema
+Pulmonology
+Goitre
+Neurology 
+Hepatitis A
+
+
+
+
+

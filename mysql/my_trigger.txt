@@ -1,0 +1,14 @@
+﻿DROP TRIGGER IF EXISTS set_patient_type;
+
+DELIMITER $$ ;
+create trigger 'set_patient_type' after insert
+on 'diagnosis'
+for each row begin
+if(NEW.illness_id=91 or NEW.illness_id=93 or NEW.illness_id=95 or NEW.illness_id=86 or NEW.illness_id=87 or NEW.illness_id=88 or NEW.illness_id=89 or NEW.illness_id=90 or NEW.illness_id=65 or NEW.illness_id=31 or NEW.illness_id=32 or NEW.illness_id=14 or NEW.illness_id=2 or NEW.illness_id=94 or NEW.illness_id=99)
+set @a='no'
+else
+set @a='yes'
+end if;
+insert into diagnosis(hospitalization_req) values(@a);
+end $$
+DELIMITER ;

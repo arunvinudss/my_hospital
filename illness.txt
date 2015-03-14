@@ -1,0 +1,110 @@
+﻿Pneumonia
+Strep Throat
+Measles
+Appendicitis
+Anthrax
+Amoebiasis or Amebiasis 
+Anemia
+Beriberi
+Bird flu
+Cancer
+Chickenpox
+Chlamydia
+Cholera
+Common cold
+Coronary heart disease
+Cowpox
+Dengue
+Diabetes mellitus
+Diarrhoea
+Diphtheria
+Encephalitis
+Ebola
+Emphysema
+Goitre
+Hepatitis A
+Hepatitis B
+Hepatitis C
+Hepatitis D
+Hepatitis E
+Hypothyroid
+Influenza
+Iron-deficiency anemia
+Jaundice
+Kuru
+Kwashiorkor
+Lead poisoning
+Legionellosis
+Leishmaniasis
+Leprosy
+Leukemia
+Loiasis
+Lyme disease
+Lymphoma
+Malaria
+Marburg fever
+Measles
+Melioidosis
+Ménière's disease
+Meningitis
+Migraine
+Multiple myeloma
+Multiple sclerosis
+Mumps
+Myelitis
+Myopia
+Myxedema
+Osteoporosis
+Peritonitis
+Periodontal disease
+Pertussis (Whooping cough)
+Plague
+Polio or Poliomyelitis
+Rabies
+Rickets
+Scurvy
+Sepsis
+SARS
+Shigellosis
+Shingles
+Sickle-cell anemia
+Siderosis
+Silicosis
+Smallpox
+Syphilis
+Tetanus
+Typhoid
+Viral fever
+Yellow fever
+
+Bacteremia
+ Sepsis
+ Anemia
+ Staph infection
+ Hepatitis B
+Thalassemia
+ Eczema
+ Acne
+ Psoriasis
+ Dry skin
+ Dandruff
+ Nail Fungus
+ Scabies
+ Skin rashes
+ Hyperpigmentation on face
+ Influenza
+ Bronchitis
+ Asthma
+ Sinusitis
+ High blood pressure
+ Rheumatic fever
+ Atherosclerosis
+ Angina
+ Heartburn
+ Food poisoning
+ Lactose intolerance
+ Stomach ulcers
+ Diverticular disease
+ Irritable bowel syndrome
+ Colon Cancer
+Stomach Cancer

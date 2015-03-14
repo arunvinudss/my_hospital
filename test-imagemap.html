@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="./js/jquery-1.11.0.min.js"></script>
+<script src="./js/home.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="./css/patient.css" />
+<link rel="stylesheet" type="text/css" href="./css/schedule.css" />
+<title></title>
+</head>
+<body>
+<div id="cssmenu">
+<ul>
+<li><a href="./home.php"><span>PATIENT INFORMATION</span></a></li>
+<li class="active"><a href="./aboutus.php"><span>SCHEDULE AN APPOINTMENT</span></a></li>
+<li><a href="./contact.php"><span>PATIENT HISTORY</span></a></li>
+
+</ul>
+</div>
+<div id="head_top">
+<b>1.Choose a Speciality</b>
+</div>
+<div id="schedule_appointment">
+<ul>
+<span><li class="active"><a href="/cardio_doctor_schedule.php"><img src="department_pic/cardio.png" /></a><p><b>Cardiology</b></p></li></span>
+<span><li><a href="/derma-schedule.php"><img src="department_pic/derma.png" /</li></a><p><b>Dermatology</b></p></li></span>
+<span><li><a href="/derma-schedule.php"><img src="department_pic/oncology.png" /</li></a><p><b>Oncology</b></p></li></span>
+<span><li><a href="/derma-schedule.php"><img src="department_pic/neurology.png" /</li></a><p><b>Neurology</b></p></li></span>
+
+</ul>
+</div>
+<div id="head_top">
+<b>2.Pick the specialist:</b>
+</div>
+<div id="schedule_appointment">	
+<?php
+
+//echo $id1;
+$link = mysqli_connect("localhost","root","","my_hospital") or die("Error " . mysqli_error($link));
+$query="select physician_firstname,physician_lastname,physician_id from physician where physician_speciality='Cardiology'";
+$result=mysqli_query($link,$query);
+while($row=mysqli_fetch_array($result))
+{
+	echo "<form name=\"my_form\" method=\"post\" action=\"test-design.php\"><input type=\"hidden\" name=\"id1\" value=\"".$row['physician_id']."\" \\><input type=\"submit\" value=\"Select\""."<p>Dr.".$row['physician_firstname']." ".$row['physician_lastname']."</p></form><br><br>";
+}
+mysqli_close($link);
+?>
+</div>
+</body>
+</html>

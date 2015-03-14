@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+#divide_1
+{
+	float:left;
+	
+}
+#divide_rule
+{
+	float:right;
+	
+}
+#maintain_tables
+{
+	margin:0 auto;
+	width:800px;
+	padding-top:35px;
+}
+
+#divide_1 table
+{
+	border-collapse:collapse;
+	border:3px solid #300;
+}
+
+#divide_rule table
+{
+	border-collapse:collapse;
+	border:3px solid #300;
+}
+#divide_rule table td
+{
+	border-collapse:collapse;
+	border:3px solid #300;
+	text-align:center;
+	font-weight:bold;
+	width:120px;
+	height:40px;
+
+	
+}
+#divide_1 table td
+{
+	border-collapse:collapse;
+	border:3px solid #300;
+	font-weight:bold;
+	text-align:center;
+	width:130px;
+	height:40px;
+}
+#divide_1 table tr:hover td {
+background-color:#00C;
+}
+
+#divide_rule table tr:hover td {
+background-color:#00C;
+}

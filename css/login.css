@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+#login_form
+{
+	margin:0 auto;
+	width:800px;
+	padding-top:100px;
+	height:500px;
+}
+#my_form
+{
+	padding-left:280px;
+}
+#login_form select 
+{
+	width:200px;
+	height:35px;
+	border-radius:12px;
+	border:2px solid #666;
+	 -moz-border-radius:12px;
+ -webkit-border-radius:12px;
+ font-weight:bold;
+ font-size:16px;
+ text-indent:4px;
+ color:#804040;
+}
+#m12
+{
+	width:200px;
+	height:32px;
+	border-radius:12px;
+	border:2px solid #666;
+	font-weight:bold;
+	 -moz-border-radius:12px;
+ -webkit-border-radius:12px;
+}
+#login_button_1
+{
+	padding:15px 35px 15px 30px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-weight:bolder;
+	background:url(../images/login-pattern.jpg);
+	border-radius:8px;
+	 -moz-border-radius:8px;
+ -webkit-border-radius:8px;
+
+	color:#FFF;
+}
+
+
+
+#login_button
+{
+	padding:15px 40px 15px 33px;
+	text-align:center;
+	text-indent:3px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-weight:bolder;
+	background:url(../images/login-pattern.jpg);
+	border-radius:8px;
+	 -moz-border-radius:8px;
+ -webkit-border-radius:8px;
+
+	color:#FFF;
+}
+
+#in_field
+{
+	padding:6px 30px 6px 3px;
+	border-radius:8px;
+	 -moz-border-radius:8px;
+ -webkit-border-radius:8px;
+
+}
+#select_type
+{
+	font:"Times New Roman", Times, serif;
+	font-weight:bold;
+	color:#333;
+	padding:6px 76px 6px 3px;
+	border-radius:8px;
+	 -moz-border-radius:8px;
+ -webkit-border-radius:8px;
+}

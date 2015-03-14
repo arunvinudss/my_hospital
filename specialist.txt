@@ -1,0 +1,19 @@
+﻿Oncology 
+Nephrology
+Neurology 
+Hepatology
+Geriatrics
+Cardiology 
+Ophthalmology
+Otolaryngology
+Urology
+Rheumatology
+Hematology 
+Gastroenterology
+Endocrinology
+Psychiatry 
+Pediatrics
+Pulmonology
+Dermatology
+Cosmetology
+General Practice

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="../js/jquery-1.11.0.min.js"></script>
+<script src="../js/home.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/management.css" />
+<link rel="stylesheet" type="text/css" href="../css/local-1.css" />
+
+<title></title>
+</head>
+<body>
+<div id="cssmenu">
+<ul>
+<li><a href="../css/show_bed_vacancy.php"><span>CHECK BED VACANCY</span></a></li>
+<li ><a href="../css/patient_assign.php"><span>PATIENT ASSIGNMENT</span></a></li>
+<li><a href="../contact.php"><span>DOCTOR ASSIGNMENT</span></a></li>
+<li><a href="../contact.php"><span>NURSE ASSIGNMENT</span></a></li>
+
+</ul>
+</div>
+<div id="bed_allocation">
+<?php
+$link = mysqli_connect("localhost","root","","my_hospital") or die("Error " . mysqli_error($link));
+$q1="SELECT bed_id, ward_number, room_number
+FROM bed_allocation b
+WHERE patient_id IS NOT NULL";
+$q2="select p.patient_id,p.patient_firstname,p.patient_lastname,b1.bed_id,b1.ward_number,b1.room_number from patients p,bed_allocation b1 where b1.patient_id=p.patient_id and exists(select * from diagnosis d1 where d1.patient_id=p.patient_id and d1.hospitalization_req='yes') and exists(select * from bed_allocation b where p.patient_id=b.patient_id)";
+$res=mysqli_query($link,$q2);
+echo "<p>List of in-patients with beds allocated:</p><br />";
+echo "<table id=\"g_g\"><tr><td>Patient_id</td><td>Patient_name</td><td>Bed Id</td><td>Room Number</td><td>Ward Number</td></tr></table><table id=\"g_1_d\">";
+$c=0;
+while($r2=mysqli_fetch_array($res))
+{
+	echo "<tr><td  onclick=\"submit_form_patient(".$c.");\")><form name=\"select_patient".$c."\" method=\"POST\" action=\"./remove_bed.php\"><input name=\"p_send_id\" type=\"hidden\" value=\"".$r2['patient_id']."\" />".$r2['patient_id']."</form></td><td onclick=\"".ltrim("submit_form_patient(".$c.");")."\">".$r2['patient_firstname']." ".$r2['patient_lastname']."</td><td onclick=\"".ltrim("submit_form_patient(".$c.");")."\">".$r2['bed_id']."</td><td onclick=\"".ltrim("submit_form_patient(".$c.");")."\">".$r2['room_number']."</td><td onclick=\"".ltrim("submit_form_patient(".$c.");")."\">".$r2['ward_number']."</td></td>";
+	
+$c++;
+}
+echo "</table>";
+mysqli_close($link);
+
+?>
+<script>
+function submit_form_patient(b)
+{
+	//alert(b);
+	var e="select_patient"+b;
+	//alert(e);
+document.forms[e].submit();
+}
+</script>
+
+</div>
+</body>
+</html>
+</body>
+</html>
